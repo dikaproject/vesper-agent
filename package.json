@@ -1,0 +1,38 @@
+{
+  "name": "vesper-landing",
+  "private": true,
+  "license": "SEE LICENSE IN LICENSE",
+  "version": "1.0.0",
+  "description": "Vesper — autonomous AI coding agents landing page (portfolio concept by INXORA Studio).",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "typecheck": "tsc -b",
+    "preview": "vite preview",
+    "assets": "node scripts/generate-assets.mjs"
+  },
+  "dependencies": {
+    "@fontsource-variable/geist": "5.3.0",
+    "@fontsource-variable/geist-mono": "5.3.0",
+    "clsx": "2.1.1",
+    "lenis": "1.3.26",
+    "lucide-react": "1.55.0",
+    "motion": "14.1.0",
+    "react": "19.3.0",
+    "react-dom": "19.3.0",
+    "simple-icons": "16.35.0",
+    "tailwind-merge": "3.7.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "4.3.3",
+    "@types/node": "22.20.5",
+    "@types/react": "19.3.0",
+    "@types/react-dom": "19.3.0",
+    "@vitejs/plugin-react": "6.1.2",
+    "playwright-core": "1.64.0",
+    "tailwindcss": "4.3.3",
+    "typescript": "6.0.3",
+    "vite": "8.3.4"
+  }
+}

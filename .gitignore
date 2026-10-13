@@ -1,0 +1,30 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Dependencies & build output
+node_modules
+dist
+dist-ssr
+*.local
+
+# Verification screenshots
+.screenshots
+
+# Separate project (INXORA promo video), not part of this repo
+inxora-promo/
+
+# Regenerable source captures (npm run assets), ~48 MB
+mockups/raw/
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?

@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="32" y1="0" x2="32" y2="64" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#2A221D"/>
+      <stop offset="1" stop-color="#0C0A09"/>
+    </linearGradient>
+    <radialGradient id="under" cx="32" cy="54" r="30" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FF6C2C" stop-opacity="0.42"/>
+      <stop offset="1" stop-color="#FF6C2C" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="rim" x1="32" y1="0" x2="32" y2="64" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0.28"/>
+      <stop offset="0.5" stop-color="#FFFFFF" stop-opacity="0.05"/>
+      <stop offset="1" stop-color="#FF8748" stop-opacity="0.4"/>
+    </linearGradient>
+    <linearGradient id="arm" x1="24" y1="8" x2="24" y2="31" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FFF3EA"/>
+      <stop offset="0.5" stop-color="#FFB383"/>
+      <stop offset="1" stop-color="#FF6C2C"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="24" cy="36.4" r="11" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FF9A5C" stop-opacity="0.95"/>
+      <stop offset="0.45" stop-color="#FF6C2C" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#FF6C2C" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect x="0.75" y="0.75" width="62.5" height="62.5" rx="16" fill="url(#bg)"/>
+  <rect x="0.75" y="0.75" width="62.5" height="62.5" rx="16" fill="url(#under)"/>
+  <rect x="0.75" y="0.75" width="62.5" height="62.5" rx="16" stroke="url(#rim)" stroke-width="1.5"/>
+  <g transform="translate(8.32 8.32) scale(0.9867)">
+    <path d="M12.5 10.5 20.45 28.4M35.5 10.5 27.55 28.4" stroke="url(#arm)" stroke-width="5" stroke-linecap="round"/>
+    <circle cx="24" cy="36.4" r="11" fill="url(#glow)"/>
+    <circle cx="24" cy="36.4" r="3.6" fill="#FFF4EA"/>
+  </g>
+</svg>
